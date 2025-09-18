@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sovenga Bakery | Menu</title>
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <section id="Menu">
-        <H2>MENU</H2>
-    </section>
-    <div class="menu">
-              <h2>Breads</h2>
-        <h4>Banana bread</h4>
-        <p>R-15</p>
-        <img src="banana.jfif" alt="banaana">
-        <h5>Ingredients:</h5>
-        <p>Banana,Flour,Baking soda,Butter,Brown sugar,Salt,Vanilla,Cinnamon</p>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="logo">
+      <h1>Sovenga Bakery</h1>
     </div>
-    <div class="menu">
-        <h4>White bread</h4>
-        <p>R-10</p>
-        <img src="white-bread-.webp" alt="white-bread">
-        <h5>Ingredients</h5>
-        <p>Salt,Oil,Sugar,Water,Flour</p>
-    </div>
-    <div class="menu">
-        <h2>Pastries</h2>
-        <h4>chocolate Muffins</h4>
-        <p>R-6</p>
-        <img src="chocolate muffins.jfif" alt="chocolate">
-        <h5>Ingredients</h5>
-        <p>Flour,Cocoa,Sugar,Oil,Salt,Vanilla,Hot milk,Baking soda</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About .html">About Us</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    </div>
-    <div class="menu">
+  <!-- Menu Section -->
+  <main>
+    <section id="menu">
+      <h2>Our Menu</h2>
+    </section>
+
+    <!-- Grid container -->
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h2>Breads</h2>
+        <h4>Banana Bread</h4>
+        <p>R-15</p>
+        <img src="banana.jfif" alt="Banana bread loaf" height="350" width="400">
+        <h5>Ingredients:</h5>
+        <p>Banana, Flour, Baking soda, Butter, Brown sugar, Salt, Vanilla, Cinnamon</p>
+      </div>
+
+      <div class="menu-item">
+        <h4>White Bread</h4>
+        <p>R-10</p>
+        <img src="white-bread-.webp" alt="White bread loaf" height="350" width="400">
+        <h5>Ingredients:</h5>
+        <p>Salt, Oil, Sugar, Water, Flour</p>
+      </div>
+
+      <div class="menu-item">
+        <h2>Pastries</h2>
+        <h4>Chocolate Muffins</h4>
+        <p>R-6</p>
+        <img src="chocolate muffins.jfif" alt="Chocolate muffins" height="350" width="400">
+        <h5>Ingredients:</h5>
+        <p>Flour, Cocoa, Sugar, Oil, Salt, Vanilla, Hot milk, Baking soda</p>
+      </div>
+
+      <div class="menu-item">
         <h4>Vanilla Muffins</h4>
         <p>R-6</p>
-        <img src="vanila.jfif" alt="vanila">
-        <h5>Ingredients</h5>
-        <p>Flour,Sugar,Baking powder,Salt,Eggs,Milk,Vanilla,Butter</p>
+        <img src="vanila.jfif" alt="Vanilla muffins" height="350" width="400">
+        <h5>Ingredients:</h5>
+        <p>Flour, Sugar, Baking powder, Salt, Eggs, Milk, Vanilla, Butter</p>
+      </div>
     </div>
-    <a href="index.html">back to menu</a>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sovenga Bakery. All rights reserved.</p>
+  </footer>
 </body>
 </html>
